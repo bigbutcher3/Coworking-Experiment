@@ -8,6 +8,7 @@ namespace CoworkingExperiment
     class Program
     {
         static void Main(string[] args)
+        public static double Subtraktion(double a, double b)
         {
             Console.Title = "Taschenrechner";
             Console.BackgroundColor = ConsoleColor.Black;
