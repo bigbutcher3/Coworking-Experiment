@@ -16,13 +16,14 @@ namespace CoworkingExperiment
 
             do
             {
+                string z = "";
                 Console.Clear();
                 Console.WriteLine("Taschenrechnerprogramm");
                 Console.WriteLine("*Komma bitte als Punkt schreiben*");
                 Console.Write("Bitte 1. Zahl eingeben: ");
                 Double.TryParse(Console.ReadLine(), out double a);
                 Console.Write("Bitte Rechenzeichen eingeben (+, -, *, /): ");
-                string z = Console.ReadLine();
+                z = Console.ReadLine();
                 Console.Write("Bitte 2. Zahl eingeben: ");
                 Double.TryParse(Console.ReadLine(), out double b);
 
@@ -46,7 +47,7 @@ namespace CoworkingExperiment
                     default:
                         break;
                 }
-                if (z.Equals("*") || z.Equals("-") || z.Equals("*") || z.Equals("/"))
+                if (z.Equals("+") || z.Equals("-") || z.Equals("*") || z.Equals("/"))
                 {
                     Console.WriteLine("Das Ergebnis lautet: {0}", ergebnis);
                     Console.Write("Beliebige Taste für Neustart...");
