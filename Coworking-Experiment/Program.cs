@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.ComponentModel;
 using System.Security.Cryptography.X509Certificates;
 using System.Xml.XPath;
