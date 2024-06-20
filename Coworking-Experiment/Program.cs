@@ -8,6 +8,8 @@ namespace CoworkingExperiment
         {
             Console.WriteLine("Hello World!");
             Console.ReadKey();
+
+            // This is a comment
         }
     }
 }
