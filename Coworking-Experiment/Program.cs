@@ -14,9 +14,7 @@ namespace CoworkingExperiment
     {
         public double Mul(double a,double b)
         {
-            //code
-            double c = a * b;
-            return c;
+          
         }
     }
 }
