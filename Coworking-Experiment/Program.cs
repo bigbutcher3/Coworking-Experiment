@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 
 namespace CoworkingExperiment
 {
@@ -9,7 +10,11 @@ namespace CoworkingExperiment
             Console.WriteLine("Hello World!");
             Console.ReadKey();
 
-            // This is a comment
+        }
+
+        public static double Addition(double a, double b)
+        {
+            return a + b;
         }
     }
 }
