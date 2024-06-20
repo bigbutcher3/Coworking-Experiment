@@ -46,7 +46,7 @@ namespace CoworkingExperiment
                     default:
                         break;
                 }
-                if (z.Equals("*") || z == "-" || z == "*" || z == "/")
+                if (z.Equals("*") || z.Equals("-") || z.Equals("*") || z.Equals("/"))
                 {
                     Console.WriteLine("Das Ergebnis lautet: {0}", ergebnis);
                     Console.Write("Beliebige Taste für Neustart...");
