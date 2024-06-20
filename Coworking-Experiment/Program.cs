@@ -10,9 +10,9 @@ using System;
 
 namespace CoworkingExperiment
 {
-    class Multiplikation
+    class Program
     {
-        public double Mul(double a,double b)
+        static void Main(string[] args)
         {
           
         }
