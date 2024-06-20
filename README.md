@@ -1,7 +1,19 @@
-public double Addition(double a, double b)
+class Addition
+{
+  public static double Add(double a, double b)
+}
 
-public double Subtraktion(double a, doubleb)
+class Subtraktion
+{
+  public static double Sub(double a, double b)
+}
 
-public double Multiplikation(double a, double b)
+class Multiplikation
+{
+  public double Mul(double a, double b)
+}
 
-public double Division(double a, double b)
+class Division
+{
+  public double Div(double a, double b)
+}
