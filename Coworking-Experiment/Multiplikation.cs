@@ -12,7 +12,7 @@ namespace CoworkingExperiment
 {
     class Multiplikation
     {
-        public double Mul(double a,double b)
+        public static double Mul(double a,double b)
         {
             //code
             double c = a * b;

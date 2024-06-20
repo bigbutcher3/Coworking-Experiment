@@ -3,7 +3,7 @@ namespace CoworkingExperiment
 {
     class Subtraktion
     {
-        public int Subtrahieren(int a, int b)
+        public static double Subtrahieren(double a, double b)
         {
             return a - b;
         }

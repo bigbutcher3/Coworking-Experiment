@@ -6,7 +6,4 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-  <ItemGroup>
-    <Compile Include="Division.cs.fs" />
-  </ItemGroup>
 </Project>

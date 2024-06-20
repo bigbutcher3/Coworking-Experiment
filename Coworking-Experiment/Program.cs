@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.ComponentModel;
 using System.Security.Cryptography.X509Certificates;
 using System.Xml.XPath;
@@ -8,12 +8,11 @@ namespace CoworkingExperiment
     class Program
     {
         static void Main(string[] args)
-        public static double Subtraktion(double a, double b)
         {
             Console.Title = "Taschenrechner";
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.White;
-            ConsoleKey key = ConsoleKey.None;
+            ConsoleKey key;
 
             do
             {
@@ -28,6 +27,7 @@ namespace CoworkingExperiment
                 Double.TryParse(Console.ReadLine(), out double b);
 
                 double ergebnis = 0;
+                key = ConsoleKey.None;
 
                 switch (z)
                 {
@@ -35,7 +35,7 @@ namespace CoworkingExperiment
                         ergebnis = Addition.Add(a, b);
                         break;
                     case "-":
-                        ergebnis = Subtraktion.Sub(a, b);
+                        ergebnis = Subtraktion.Subtrahieren(a, b);
                         break;
                     case "*":
                         ergebnis = Multiplikation.Mul(a, b);
@@ -46,10 +46,10 @@ namespace CoworkingExperiment
                     default:
                         break;
                 }
-                if (z == "*" || z == "-" || z == "*" || z == "/")
+                if (z.Equals("*") || z == "-" || z == "*" || z == "/")
                 {
                     Console.WriteLine("Das Ergebnis lautet: {0}", ergebnis);
-                    Console.Write("Nochmal? (j/n) ");
+                    Console.Write("Beliebige Taste für Neustart...");
                     key = Console.ReadKey().Key;
                     if (key == ConsoleKey.N)
                     {
