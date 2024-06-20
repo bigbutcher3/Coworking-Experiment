@@ -4,10 +4,10 @@ namespace CoworkingExperiment
 {
     class Program
     {
-        static void Main(string[] args)
+        public static double Multiplikation(double a,double b)
         {
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+            //code
         }
+       
     }
 }
