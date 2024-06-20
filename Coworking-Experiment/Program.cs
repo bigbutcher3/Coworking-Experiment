@@ -1,10 +1,7 @@
 ﻿using System;
-<<<<<<< Updated upstream
 using System.ComponentModel;
-=======
 using System.Security.Cryptography.X509Certificates;
 using System.Xml.XPath;
->>>>>>> Stashed changes
 
 namespace CoworkingExperiment
 {
@@ -12,9 +9,6 @@ namespace CoworkingExperiment
     {
         static void Main(string[] args)
         {
-<<<<<<< Updated upstream
-            
-=======
             Console.Title = "Taschenrechner";
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.White;
@@ -62,7 +56,6 @@ namespace CoworkingExperiment
                     }
                 }
             } while (key != ConsoleKey.N);
->>>>>>> Stashed changes
         }
     }
 }
