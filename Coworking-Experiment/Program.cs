@@ -18,6 +18,5 @@ namespace CoworkingExperiment
             double c = a * b;
             return c;
         }
-       
     }
 }
