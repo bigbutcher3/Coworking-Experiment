@@ -6,10 +6,7 @@ namespace CoworkingExperiment
     {
          public static double Div(double a, double b)
         {
-
-    
-            
-                if (a == 0)
+                if (a == 0 || b == 0)
                 {
                     throw new ArgumentException("Die Division darf nicht durch null sein.");
                 }
@@ -17,8 +14,5 @@ namespace CoworkingExperiment
                 return a / b;
         }
     }
-
-
-
 
 }
